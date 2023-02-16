@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 
 <head>
     <meta charset="utf-8">
@@ -10,9 +10,7 @@
     <meta name="keywords" content="">
 
     <!-- Favicons -->
-    {{-- <link href="/img/favicon.png') }}" rel="icon"> --}}
-    <link href="{{ asset('img/apple-touch-icon.png') }}') }}" rel="apple-touch-icon">
-
+    <link href="{{ asset('img/favicon.ico') }}" rel="icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -27,7 +25,7 @@
 
     <!-- ======= Header ======= -->
     <header class="header fixed-top" id="header" data-scrollto-offset="0">
-        <div class="container-fluid d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center justify-content-between container">
 
             <a class="logo d-flex align-items-center scrollto me-auto me-lg-0" href="index.html">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
@@ -39,7 +37,7 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="index.php#services">Services</a></li>
+                    {{-- <li><a class="nav-link scrollto" href="index.php#services">Services</a></li> --}}
                     <!--<li><a class="nav-link scrollto" href="index.php#portfolio">Portfolio</a></li>-->
                     <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
                     <li><a href="blog.php">Blog</a></li>
@@ -48,20 +46,15 @@
                 <i class="bi bi-list mobile-nav-toggle d-none"></i>
             </nav>
             <!-- .navbar -->
-
         </div>
     </header>
     <!-- End Header -->
 
     <section class="hero-animated d-flex align-items-center" id="hero-animated">
         <div class="d-flex flex-column justify-content-center align-items-center position-relative container text-center" data-aos="zoom-out">
-            <img class="img-fluid animated" src="{{ asset('img/hero-carousel/hero-carousel-3.svg') }}">
-            <h2>Welcome to <span>HeroBiz</span></h2>
-            <p>Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.</p>
-            <div class="d-flex">
-                <a class="btn-get-started scrollto" href="#about">Get Started</a>
-                <a class="glightbox btn-watch-video d-flex align-items-center" href="https://www.youtube.com/watch?v=LXb3EKWsInQ"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-            </div>
+            <img class="img-fluid animated" src="{{ asset('img/logo.png') }}">
+            <h2>Welcome to <span>TalentJo</span></h2>
+            <p>Finding, Fostering, and Empowering Jordan's Potential in Creativity, and Innovation.</p>
         </div>
     </section>
 
@@ -71,12 +64,12 @@
         <section class="featured-services" id="featured-services">
             <div class="container">
 
-                <div class="row gy-4">
+                <div class="row gy-4 justify-content-center">
 
                     <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out">
                         <div class="service-item position-relative">
                             <div class="icon"><i class="bi bi-activity icon"></i></div>
-                            <h4><a class="stretched-link" href="">Discoverym</a></h4>
+                            <h4>Discovery</h4>
                             <p>Discovering talented people and providing care to develop their talent</p>
                         </div>
                     </div><!-- End Service Item -->
@@ -84,16 +77,15 @@
                     <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="400">
                         <div class="service-item position-relative">
                             <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-                            <h4><a class="stretched-link" href="">Magni Dolores</a></h4>
+                            <h4>Support</h4>
                             <p>Providing a stimulating and supportive environment for creativity and innovation</p>
-                            </p>
                         </div>
                     </div><!-- End Service Item -->
 
                     <div class="col-xl-3 col-md-6 d-flex" data-aos="zoom-out" data-aos-delay="600">
                         <div class="service-item position-relative">
                             <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-                            <h4><a class="stretched-link" href="">Enhancement</a></h4>
+                            <h4>Enhancement</h4>
                             <p>Enhancing cooperation and partnership with institutions and the local community that support talent</p>
                         </div>
                     </div><!-- End Service Item -->
@@ -116,18 +108,12 @@
         <!-- ======= Clients Section ======= -->
         <section class="clients" id="clients">
             <div class="container" data-aos="zoom-out">
-
-                <div class="clients-slider swiper">
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img class="img-fluid" src="{{ asset('img/clients/client-1.png') }}" alt=""></div>
-                        <div class="swiper-slide"><img class="img-fluid" src="{{ asset('img/clients/client-2.png') }}" alt=""></div>
-                        <div class="swiper-slide"><img class="img-fluid" src="{{ asset('img/clients/client-3.png') }}" alt=""></div>
-                        <div class="swiper-slide"><img class="img-fluid" src="{{ asset('img/clients/client-4.png') }}" alt=""></div>
-                        <div class="swiper-slide"><img class="img-fluid" src="{{ asset('img/clients/client-5.png') }}" alt=""></div>
-                        <div class="swiper-slide"><img class="img-fluid" src="{{ asset('img/clients/client-6.png') }}" alt=""></div>
-                        <div class="swiper-slide"><img class="img-fluid" src="{{ asset('img/clients/client-7.png') }}" alt=""></div>
-                        <div class="swiper-slide"><img class="img-fluid" src="{{ asset('img/clients/client-8.png') }}" alt=""></div>
-                    </div>
+                <div class="row g-1 align-items-center justify-content-center">
+                    <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-cuture.png') }}" alt=""></div>
+                    <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-eco.png') }}" alt=""></div>
+                    <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-edu.png') }}" alt=""></div>
+                    <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-edu2.png') }}" alt=""></div>
+                    <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-youth.png') }}" alt=""></div>
                 </div>
 
             </div>
@@ -348,7 +334,7 @@
 
                     <div class="tab-pane" id="tab-7">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-2 order-lg-1">
+                            <div class="col-lg-8 order-lg-1 order-2">
                                 <h3>Photography Talent</h3>
                                 <p>
                                     It is the art of taking pictures creatively to highlight their beauty, and it is a specific mixture of different types of photography techniques that provide the viewer with a message or a scene in an artistic form. The art of photography includes: photography, filming and others.
@@ -363,7 +349,7 @@
 
                     <div class="tab-pane" id="tab-8">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-2 order-lg-1">
+                            <div class="col-lg-8 order-lg-1 order-2">
                                 <h3>Other Talents</h3>
                                 <p>
                                     Include talents that did not fall under the main categories mentioned in the Talents section
@@ -503,7 +489,7 @@
         </section><!-- End Services Section --> --}}
 
         <!-- ======= F.A.Q Section ======= -->
-        <section class="faq" id="faq">
+        {{-- <section class="faq" id="faq">
             <div class="container-fluid" data-aos="fade-up">
 
                 <div class="row gy-4">
@@ -598,7 +584,7 @@
                 </div>
 
             </div>
-        </section><!-- End F.A.Q Section -->
+        </section><!-- End F.A.Q Section --> --}}
 
         {{-- <!-- ======= Portfolio Section ======= -->
         <section class="portfolio" id="portfolio" data-aos="fade-up">
@@ -749,12 +735,12 @@
                     <h2>Our Team</h2>
                 </div>
 
-                <div class="row gy-5">
+                <div class="row gy-5 justify-content-center">
 
                     <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="{{ asset('img/team/team-1.jpg') }}" class="img-fluid" alt="">
+                                <img class="img-fluid" src="{{ asset('img/team/member1.jpg') }}" alt="">
                             </div>
                             <div class="member-info">
                                 <div class="social">
@@ -773,7 +759,7 @@
                     <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="{{ asset('img/team/team-3.jpg') }}" class="img-fluid" alt="">
+                                <img class="img-fluid" src="{{ asset('img/team/member2.jpg') }}" alt="">
                             </div>
                             <div class="member-info">
                                 <div class="social">
@@ -792,7 +778,7 @@
                     <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="{{ asset('img/team/team-3.jpg') }}" class="img-fluid" alt="">
+                                <img class="img-fluid" src="{{ asset('img/team/member4.jpg') }}" alt="">
                             </div>
                             <div class="member-info">
                                 <div class="social">
@@ -811,7 +797,7 @@
                     <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
                         <div class="team-member">
                             <div class="member-img">
-                                <img src="{{ asset('img/team/team-3.jpg') }}" class="img-fluid" alt="">
+                                <img class="img-fluid" src="{{ asset('img/team/member3.jpg') }}" alt="">
                             </div>
                             <div class="member-info">
                                 <div class="social">
@@ -898,9 +884,9 @@
 
             </div>
 
-            <div class="map">
+            {{-- <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-            </div><!-- End Google Maps -->
+            </div><!-- End Google Maps --> --}}
 
             <div class="container">
 
@@ -975,7 +961,7 @@
     <!-- ======= Footer ======= -->
     <footer class="footer" id="footer">
 
-        <div class="footer-content">
+        {{-- <div class="footer-content">
             <div class="container">
                 <div class="row">
 
@@ -1024,21 +1010,16 @@
 
                 </div>
             </div>
-        </div>
+        </div> --}}
+
+        <hr class="col-12 mb-0">
 
         <div class="footer-legal text-center">
             <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center container">
 
                 <div class="d-flex flex-column align-items-center align-items-lg-start">
                     <div class="copyright">
-                        &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
-                    </div>
-                    <div class="credits">
-                        <!-- All the links in the footer should remain intact. -->
-                        <!-- You can delete the links only if you purchased the pro version. -->
-                        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        &copy; Copyright <strong><span>TalentJo</span></strong>. All Rights Reserved
                     </div>
                 </div>
 
