@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -40,7 +40,7 @@
                     {{-- <li><a class="nav-link scrollto" href="index.php#services">Services</a></li> --}}
                     <!--<li><a class="nav-link scrollto" href="index.php#portfolio">Portfolio</a></li>-->
                     <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
-                    <li><a href="blog.php">Blog</a></li>
+                    {{-- <li><a href="blog.php">Blog</a></li> --}}
                     <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle d-none"></i>
@@ -108,6 +108,9 @@
         <!-- ======= Clients Section ======= -->
         <section class="clients" id="clients">
             <div class="container" data-aos="zoom-out">
+                <div class="section-header">
+                    <h2>Success Partners</h2>
+                </div>
                 <div class="row g-1 align-items-center justify-content-center">
                     <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-cuture.png') }}" alt=""></div>
                     <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-eco.png') }}" alt=""></div>
@@ -177,64 +180,72 @@
                 <ul class="nav nav-tabs row gy-4 d-flex">
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-                            <i class="bi bi-binoculars color-cyan"></i>
+                        <a class="nav-link text-center active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                            {{-- <i class="bi bi-binoculars color-cyan"></i> --}}
+                            <i class="fa-regular fa-hand m-3 color-cyan"></i>
                             <h4>Handmade Art Talent</h4>
                         </a>
                     </li>
                     <!-- End Tab 1 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                            <i class="bi bi-box-seam color-indigo"></i>
+                        <a class="nav-link text-center" data-bs-toggle="tab" data-bs-target="#tab-2">
+                            {{-- <i class="bi bi-box-seam color-indigo"></i> --}}
+                            <i class="fa-solid fa-person-walking m-3 color-indigo"></i>
                             <h4>Acting Talent</h4>
                         </a>
                     </li>
                     <!-- End Tab 2 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                            <i class="bi bi-brightness-high color-teal"></i>
+                        <a class="nav-link text-center" data-bs-toggle="tab" data-bs-target="#tab-3">
+                            {{-- <i class="bi bi-brightness-high color-teal"></i> --}}
+                            <i class="fa-solid fa-microphone m-3 color-teal"></i>
                             <h4>Musical Talent</h4>
                         </a>
                     </li>
                     <!-- End Tab 3 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-                            <i class="bi bi-command color-red"></i>
+                        <a class="nav-link text-center" data-bs-toggle="tab" data-bs-target="#tab-4">
+                            {{-- <i class="bi bi-command color-red"></i> --}}
+                            <i class="fa-solid fa-volleyball m-3 color-red"></i>
                             <h4>Sports Talent</h4>
                         </a>
                     </li>
                     <!-- End Tab 4 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
-                            <i class="bi bi-easel color-blue"></i>
+                        <a class="nav-link text-center" data-bs-toggle="tab" data-bs-target="#tab-5">
+                            {{-- <i class="bi bi-easel color-blue"></i> --}}
+                            <i class="fa-solid fa-feather-pointed color-blue m-3"></i>
                             <h4>Literature Talent</h4>
                         </a>
                     </li>
                     <!-- End Tab 5 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
-                            <i class="bi bi-map color-orange"></i>
+                        <a class="nav-link text-center" data-bs-toggle="tab" data-bs-target="#tab-6">
+                            {{-- <i class="bi bi-map color-orange"></i> --}}
+                            <i class="fa-solid fa-braille m-3 color-orange"></i>
                             <h4>Scientific Talent</h4>
                         </a>
                     </li>
                     <!-- End Tab 6 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-7">
-                            <i class="bi bi-map color-orange"></i>
+                        <a class="nav-link text-center" data-bs-toggle="tab" data-bs-target="#tab-7">
+                            {{-- <i class="bi bi-map color-orange"></i> --}}
+                            <i class="fa-solid fa-camera color-cyan m-3"></i>
                             <h4>Photography Talent</h4>
                         </a>
                     </li>
                     <!-- End Tab 7 Nav -->
 
                     <li class="nav-item col-6 col-md-4 col-lg-2">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-8">
-                            <i class="bi bi-map color-orange"></i>
+                        <a class="nav-link text-center" data-bs-toggle="tab" data-bs-target="#tab-8">
+                            {{-- <i class="bi bi-map color-orange"></i> --}}
+                            <i class="fa-brands fa-ethereum m-3 color-indigo"></i>
                             <h4>Other Talents</h4>
                         </a>
                     </li>
@@ -246,119 +257,113 @@
 
                     <div class="tab-pane active show" id="tab-1">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-lg-1 order-2" data-aos="fade-up" data-aos-delay="100">
+                            <div class="col order-lg-1 order-2" data-aos="fade-up" data-aos-delay="100">
                                 <h3>Handmade Art Talent</h3>
                                 <p>
                                     The talent of handmade art combines several visual and applied arts in which the artist expresses beauty in his own way stemming from his vision and his ability to imagine and create to convey that beauty to the eyes, and touches the feelings with what he formulated of ideas, shapes and colors in his handmade artistic paintings or in his artistic works that he formulated with sculpture and engraving, formation and other skills that he mastered through practice and continuous performance to highlight distinctive works that reflect a special character of the artist that distinguishes him from others.
                                 </p>
                             </div>
-                            <div class="col-lg-4 order-lg-2 order-1 text-center" data-aos="fade-up" data-aos-delay="200">
+                            {{-- <div class="col-lg-4 order-lg-2 order-1 text-center" data-aos="fade-up" data-aos-delay="200">
                                 <img class="img-fluid" src="{{ asset('img/features-1.svg') }}" alt="">
-                            </div>
+                            </div> --}}
                         </div>
                     </div><!-- End Tab Content 1 -->
 
                     <div class="tab-pane" id="tab-2">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-lg-1 order-2">
+                            <div class="col order-lg-1 order-2">
                                 <h3>Acting Talent</h3>
                                 <p>
                                     The talent that relies on movements and gestures with the aim of achieving a fictional character by impersonating the actor to convey the writer's message to the viewers, including the feelings, intentions and feelings it contains, whether this performance is in a play, series, movie or a specific program. This art requires the talented person to have sufficient confidence to succeed in his role as an actor, and it also requires him to have some formal training to master the acting role in order to be qualified to display his talent in front of the audience.
                                 </p>
                             </div>
-                            <div class="col-lg-4 order-lg-2 order-1 text-center">
+                            {{-- <div class="col-lg-4 order-lg-2 order-1 text-center">
                                 <img class="img-fluid" src="{{ asset('img/features-2.svg') }}" alt="">
-                            </div>
+                            </div> --}}
                         </div>
                     </div><!-- End Tab Content 2 -->
 
                     <div class="tab-pane" id="tab-3">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-lg-1 order-2">
+                            <div class="col order-lg-1 order-2">
                                 <h3>Musical Talent</h3>
                                 <p>
                                     It combines music, word and voice with a distinctive and harmonious human performance that delights the ears with the most beautiful words and melodies. Each person has his own color and pitch. There is a coarse voice and a soft voice, there is a strong voice and a weak voice. There is also a voice that reflects tenderness and another that reflects cruelty. A person is distinguished by his ability to control the layers of his voice and arrange them in a certain harmony. With or without music, he is also distinguished by his ability to use musical instruments of various kinds in proportion to his performance and his voice. This international art expresses feelings, feelings and ideas by reaching the ears and hearts. It is an art close to the heart and quick to influence others.
                                 </p>
-
                             </div>
-                            <div class="col-lg-4 order-lg-2 order-1 text-center">
+                            {{-- <div class="col-lg-4 order-lg-2 order-1 text-center">
                                 <img class="img-fluid" src="{{ asset('img/features-3.svg') }}" alt="">
-                            </div>
+                            </div> --}}
                         </div>
                     </div><!-- End Tab Content 3 -->
 
                     <div class="tab-pane" id="tab-4">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-lg-1 order-2">
+                            <div class="col order-lg-1 order-2">
                                 <h3>Sports Talent</h3>
                                 <p>
                                     Sports talent, which is the personality that has more qualities and characteristics than a physical and athletic dimension, so that it can, with more care and training, develop its capabilities in the game or sports that it is good at, and we, in turn, contribute a great deal to its development and provide the opportunity to highlight its capabilities. Physical sports include: athletics, ball games, martial arts, fitness and gymnastics, among others.
                                 </p>
-
                             </div>
-                            <div class="col-lg-4 order-lg-2 order-1 text-center">
+                            {{-- <div class="col-lg-4 order-lg-2 order-1 text-center">
                                 <img class="img-fluid" src="{{ asset('img/features-4.svg') }}" alt="">
-                            </div>
+                            </div> --}}
                         </div>
                     </div><!-- End Tab Content 4 -->
 
                     <div class="tab-pane" id="tab-5">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-lg-1 order-2">
+                            <div class="col order-lg-1 order-2">
                                 <h3>Literature Talent</h3>
                                 <p>
                                     It is based entirely on the Arabic language with its different patterns, methods and expressive forms. Literary arts differ from one language to another and from one people to another, depending on the characteristics of each language and the influence of different cultures on these arts. These arts generally depend on the formation of sentences and the use of words and vocabulary in a specific aesthetic way to simulate reality People express thoughts and feelings. The fields of literary writing varied between poetry, thoughts, stories, novels, articles of various kinds, and texts of visual content in general. Many writers and poets were creative in this field, and their literary works became famous worldwide.
                                 </p>
-
                             </div>
-                            <div class="col-lg-4 order-lg-2 order-1 text-center">
+                            {{-- <div class="col-lg-4 order-lg-2 order-1 text-center">
                                 <img class="img-fluid" src="{{ asset('img/features-5.svg') }}" alt="">
-                            </div>
+                            </div> --}}
                         </div>
                     </div><!-- End Tab Content 5 -->
 
                     <div class="tab-pane" id="tab-6">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-lg-1 order-2">
+                            <div class="col order-lg-1 order-2">
                                 <h3>Scientific Talent</h3>
                                 <p>
                                     It is the one that relies on technology in all its forms to produce it, and it boils down to works of art created using new media technologies including: digital art, computer graphics, computer animation, virtual art, internet art, interactive art, video games, robotics and 3D printing. .
                                 </p>
-
                             </div>
-                            <div class="col-lg-4 order-lg-2 order-1 text-center">
+                            {{-- <div class="col-lg-4 order-lg-2 order-1 text-center">
                                 <img class="img-fluid" src="{{ asset('img/features-6.svg') }}" alt="">
-                            </div>
+                            </div> --}}
                         </div>
                     </div><!-- End Tab Content 6 -->
 
                     <div class="tab-pane" id="tab-7">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-lg-1 order-2">
+                            <div class="col order-lg-1 order-2">
                                 <h3>Photography Talent</h3>
                                 <p>
                                     It is the art of taking pictures creatively to highlight their beauty, and it is a specific mixture of different types of photography techniques that provide the viewer with a message or a scene in an artistic form. The art of photography includes: photography, filming and others.
                                 </p>
-
                             </div>
-                            <div class="col-lg-4 order-lg-2 order-1 text-center">
+                            {{-- <div class="col-lg-4 order-lg-2 order-1 text-center">
                                 <img class="img-fluid" src="{{ asset('img/features-6.svg') }}" alt="">
-                            </div>
+                            </div> --}}
                         </div>
                     </div><!-- End Tab Content 7 -->
 
                     <div class="tab-pane" id="tab-8">
                         <div class="row gy-4">
-                            <div class="col-lg-8 order-lg-1 order-2">
+                            <div class="col order-lg-1 order-2">
                                 <h3>Other Talents</h3>
                                 <p>
                                     Include talents that did not fall under the main categories mentioned in the Talents section
                                 </p>
-
                             </div>
-                            <div class="col-lg-4 order-lg-2 order-1 text-center">
+                            {{-- <div class="col-lg-4 order-lg-2 order-1 text-center">
                                 <img class="img-fluid" src="{{ asset('img/features-6.svg') }}" alt="">
-                            </div>
+                            </div> --}}
                         </div>
                     </div><!-- End Tab Content 8 -->
 
@@ -744,10 +749,8 @@
                             </div>
                             <div class="member-info">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a target="_blank" href="mailto:shorouq.halawani@gmail.com"><i class="bi bi-envelope"></i></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/shorouq-al-halawani-452a02a8/"><i class="bi bi-linkedin"></i></a>
                                 </div>
                                 <h4>Shorouq Al-Halawni</h4>
                                 <span>Chief Executive Officer</span>
@@ -763,10 +766,8 @@
                             </div>
                             <div class="member-info">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a target="_blank" href="mailto:abuhawashabdallah@outlook.com"><i class="bi bi-envelope"></i></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/abdallah-abu-hawash-60108320a/"><i class="bi bi-linkedin"></i></a>
                                 </div>
                                 <h4>Abdallah Abu-Hawash</h4>
                                 <span>Member</span>
@@ -782,10 +783,8 @@
                             </div>
                             <div class="member-info">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a target="_blank" href="mailto:muh01haikal@gmail.com"><i class="bi bi-envelope"></i></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/muhammad-haikal-135526230/"><i class="bi bi-linkedin"></i></a>
                                 </div>
                                 <h4>Mohammad Haikal</h4>
                                 <span>Member</span>
@@ -801,10 +800,8 @@
                             </div>
                             <div class="member-info">
                                 <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a target="_blank" href="mailto:omar.alhuzaqi2002@gmail.com"><i class="bi bi-envelope"></i></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/omar-alhuzaqi-5788b6196/"><i class="bi bi-linkedin"></i></a>
                                 </div>
                                 <h4>Omar AlHuzaqy</h4>
                                 <span>Member</span>
@@ -927,7 +924,8 @@
                     </div>
 
                     <div class="col-lg-8">
-                        <form class="php-email-form" role="form" action="forms/contact.php" method="post">
+                        <form class="php-email-form" role="form" action="/contact/store" method="post">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <input class="form-control" id="name" name="name" type="text" placeholder="Your Name" required>
