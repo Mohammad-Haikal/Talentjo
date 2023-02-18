@@ -129,9 +129,14 @@
                 <div class="row g-5">
 
                     <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-md-first order-last">
-                        <h3>Alias sunt quas <em>Cupiditate</em> oluptas hic minima</h3>
-                        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <a class="cta-btn align-self-start" href="#">Call To Action</a>
+                        <h3><em>TalentJo</em> Training</h3>
+                        <p> It provides distinguished training services for the talented, covering all the different categories of talent enjoyed by the platform’s subscribers.
+Training and care aims to:
+Developing the skills of talented people and providing them with additional skills in their fields to benefit from them in application and production.
+Providing specific and focused training in specific fields that encourage talents to effectively invest their talents.
+Networking with local community institutions, universities, research centers and the private sector to qualify talented people and provide them with practical training.
+</p>
+                        <a class="cta-btn align-self-start" href="index.php#contact">Call To Action</a>
                     </div>
 
                     <div class="col-lg-4 col-md-6 order-md-last d-flex align-items-center order-first">
