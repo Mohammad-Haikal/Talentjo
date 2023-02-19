@@ -14,9 +14,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Set Language
+Route::get('/ar', function () {
+    session()->put('lang', 'ar');
+    return redirect('/');
 });
 
+Route::get('/en', function () {
+    session()->put('lang', 'en');
+    return redirect('/');
+});
+
+Route::get('/', function () {
+    if (session('lang') != null && session('lang') == 'en') {
+        return view('en');
+    } else {
+        return view('ar');
+    }
+});
 
 Route::post('/contact/store', [ContactController::class, 'store']);

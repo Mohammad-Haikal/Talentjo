@@ -1,21 +1,14 @@
 require('./bootstrap');
 import jQuery from 'jquery';
-import GLightbox from 'glightbox';
-import Isotope  from 'isotope-layout';
 
+// import GLightbox from 'glightbox';
+// import Isotope  from 'isotope-layout';
 // const Swiper = require('swiper').default;
+
 window.AOS = require('AOS');
 window.$ = jQuery;
 
 
-
-
-/**
-* Template Name: HeroBiz - v2.4.0
-* Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 document.addEventListener('DOMContentLoaded', () => {
     "use strict";
 
@@ -183,46 +176,46 @@ document.addEventListener('DOMContentLoaded', () => {
     /**
      * Initiate glightbox
      */
-    const glightbox = GLightbox({
-        selector: '.glightbox'
-    });
+    // const glightbox = GLightbox({
+    //     selector: '.glightbox'
+    // });
 
     /**
      * Porfolio isotope and filter
      */
-    let portfolionIsotope = document.querySelector('.portfolio-isotope');
+    // let portfolionIsotope = document.querySelector('.portfolio-isotope');
 
-    if (portfolionIsotope) {
+    // if (portfolionIsotope) {
 
-        let portfolioFilter = portfolionIsotope.getAttribute('data-portfolio-filter') ? portfolionIsotope.getAttribute('data-portfolio-filter') : '*';
-        let portfolioLayout = portfolionIsotope.getAttribute('data-portfolio-layout') ? portfolionIsotope.getAttribute('data-portfolio-layout') : 'masonry';
-        let portfolioSort = portfolionIsotope.getAttribute('data-portfolio-sort') ? portfolionIsotope.getAttribute('data-portfolio-sort') : 'original-order';
+    //     let portfolioFilter = portfolionIsotope.getAttribute('data-portfolio-filter') ? portfolionIsotope.getAttribute('data-portfolio-filter') : '*';
+    //     let portfolioLayout = portfolionIsotope.getAttribute('data-portfolio-layout') ? portfolionIsotope.getAttribute('data-portfolio-layout') : 'masonry';
+    //     let portfolioSort = portfolionIsotope.getAttribute('data-portfolio-sort') ? portfolionIsotope.getAttribute('data-portfolio-sort') : 'original-order';
 
-        window.addEventListener('load', () => {
-            let portfolioIsotope = new Isotope(document.querySelector('.portfolio-container'), {
-                itemSelector: '.portfolio-item',
-                layoutMode: portfolioLayout,
-                filter: portfolioFilter,
-                sortBy: portfolioSort
-            });
+    //     window.addEventListener('load', () => {
+    //         let portfolioIsotope = new Isotope(document.querySelector('.portfolio-container'), {
+    //             itemSelector: '.portfolio-item',
+    //             layoutMode: portfolioLayout,
+    //             filter: portfolioFilter,
+    //             sortBy: portfolioSort
+    //         });
 
-            let menuFilters = document.querySelectorAll('.portfolio-isotope .portfolio-flters li');
-            menuFilters.forEach(function (el) {
-                el.addEventListener('click', function () {
-                    document.querySelector('.portfolio-isotope .portfolio-flters .filter-active').classList.remove('filter-active');
-                    this.classList.add('filter-active');
-                    portfolioIsotope.arrange({
-                        filter: this.getAttribute('data-filter')
-                    });
-                    if (typeof aos_init === 'function') {
-                        aos_init();
-                    }
-                }, false);
-            });
+    //         let menuFilters = document.querySelectorAll('.portfolio-isotope .portfolio-flters li');
+    //         menuFilters.forEach(function (el) {
+    //             el.addEventListener('click', function () {
+    //                 document.querySelector('.portfolio-isotope .portfolio-flters .filter-active').classList.remove('filter-active');
+    //                 this.classList.add('filter-active');
+    //                 portfolioIsotope.arrange({
+    //                     filter: this.getAttribute('data-filter')
+    //                 });
+    //                 if (typeof aos_init === 'function') {
+    //                     aos_init();
+    //                 }
+    //             }, false);
+    //         });
 
-        });
+    //     });
 
-    }
+    // }
 
     // /**
     //  * Clients Slider
@@ -266,6 +259,14 @@ document.addEventListener('DOMContentLoaded', () => {
         mirror: false
     });
 
+
+    $(function () {
+        $('#flash-message').delay(2400).fadeOut();
+
+        $('form').submit(function() {
+            $(this).find(":submit").prop('disabled',true);
+          });
+    });
 
 
 });

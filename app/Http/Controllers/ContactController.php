@@ -15,7 +15,7 @@ class ContactController extends Controller
             'message' => request('message')
         ]);
 
-        return redirect('/');
+        return redirect('/')->with('message-sent', true);
 
     }
 }
