@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>TalentJo</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="هي أول منصة إلكترونية لرعاية الموهوبين والمبدعين والمبتكرين في الأردن، تهدف الى اكتشاف ورعاية الموهوبين والمبدعين والمبتكرين في المجالات العلمية والأدبية والفنية للمساهمة في بناء قاعدة محلية للموهبة والإبداع تنافس على المستوى العالمي، هدفنا هو توفير بيئة محفزة للموهبة والابداع وتعزيز الشغف في الموهبة ودعم الابتكار لبناء قادة المستقبل وخدمة الإنسانية عن طريق تقديم الدعم الدائم من خلال المشاركة في المسابقات والجوائز من أجل ابراز مواهبهم عن طريق عرضها عبر المنصة على المهتمين وإتاحة المجال للمؤسسات المعنية باحتضانهم ورعايتهم لزيادة مساهمتهم المجتمعية ورفع كفاءتهم في تلك المواهب.">
+    <meta name="keywords" content="talent, jordan talents, talentjo">
+    <meta name="author" content="Talentjo Team">
 
     <!-- Favicons -->
     <link href="{{ asset('img/favicon.ico') }}" rel="icon">
@@ -39,7 +40,7 @@
     <header class="header fixed-top" id="header" data-scrollto-offset="0">
         <div class="d-flex align-items-center justify-content-between container">
 
-            <a class="logo d-flex align-items-center scrollto me-auto me-lg-0" href="index.html">
+            <a class="logo d-flex align-items-center scrollto me-auto me-lg-0" href="/">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                 <h1>Talent<span>Jo</span></h1>
@@ -47,13 +48,13 @@
 
             <nav class="navbar" id="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="index.php">الرئيسية</a></li>
-                    <li><a class="nav-link scrollto" href="index.php#about">حول</a></li>
-                    {{-- <li><a class="nav-link scrollto" href="index.php#services">الخدمات</a></li> --}}
-                    <!--<li><a class="nav-link scrollto" href="index.php#portfolio">Portfolio</a></li>-->
-                    <li><a class="nav-link scrollto" href="index.php#team">الفريق</a></li>
+                    <li><a class="nav-link scrollto" href="/">الرئيسية</a></li>
+                    <li><a class="nav-link scrollto" href="#about">حول</a></li>
+                    {{-- <li><a class="nav-link scrollto" href="#services">الخدمات</a></li> --}}
+                    <!--<li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>-->
+                    <li><a class="nav-link scrollto" href="#team">الفريق</a></li>
                     {{-- <li><a href="blog.php">المدونة</a></li> --}}
-                    <li><a class="nav-link scrollto" href="index.php#contact">تواصل</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">تواصل</a></li>
                     <li><a class="nav-link scrollto" href="/en">English</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle d-none"></i>
@@ -126,10 +127,10 @@
                 </div>
                 <div class="row g-1 align-items-center justify-content-center">
                     <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-cuture.png') }}" alt=""></div>
-                    <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-eco.png') }}" alt=""></div>
+                    {{-- <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-eco.png') }}" alt=""></div> --}}
                     <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-edu.png') }}" alt=""></div>
                     <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-edu2.png') }}" alt=""></div>
-                    <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-youth.png') }}" alt=""></div>
+                    {{-- <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-youth.png') }}" alt=""></div> --}}
                 </div>
 
             </div>
@@ -921,7 +922,7 @@
                                 <i class="bi bi-envelope flex-shrink-0  mx-2"></i>
                                 <div>
                                     <h4>الإيميل:</h4>
-                                    <p><a class="text-decoration-none" href="mailto:shorouq.halawani@gmail.com">shorouq.halawani@gmail.com</a></p>
+                                    <p><a class="text-decoration-none" href="mailto:talentjo.jordan@gmail.com">Talentjo.jordan@gmail.com</a></p>
                                 </div>
                             </div><!-- End Info Item -->
 
@@ -929,7 +930,7 @@
                                 <i class="bi bi-phone flex-shrink-0  mx-2"></i>
                                 <div>
                                     <h4>إتصل:</h4>
-                                    <p><a class="text-decoration-none" href="tel:+962791525016">0791525016</a></p>
+                                    <p dir="ltr"><a class="text-decoration-none" href="tel:+962791525016">07 9152 5016</a></p>
                                 </div>
                             </div><!-- End Info Item -->
 

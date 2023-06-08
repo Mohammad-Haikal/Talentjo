@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>TalentJo</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="TalentJo is Jordan's first electronic platform that aims to discover and support talented, inventive, and creative individuals in the domains of science, literature, and art so as to help develop a local talented and creative base that can compete on a worldwide scale. Our objective is to create an atmosphere that is stimulating for talent and creativity, to encourage talent passion, and to support innovation to develop leaders. the future and serving humanity by offering ongoing assistance, participating in contests and winning prizes to highlight their talents by presenting them through a platform to those interested, and allowing the concerned institutions to embrace and sponsor them to increase their societal contribution and raise their efficiency in those talents.">
+    <meta name="keywords" content="talent, jordan talents, talentjo">
+    <meta name="author" content="Talentjo Team">
 
     <!-- Favicons -->
     <link href="{{ asset('img/favicon.ico') }}" rel="icon">
@@ -29,7 +30,7 @@
     <header class="header fixed-top" id="header" data-scrollto-offset="0">
         <div class="d-flex align-items-center justify-content-between container">
 
-            <a class="logo d-flex align-items-center scrollto me-auto me-lg-0" href="index.html">
+            <a class="logo d-flex align-items-center scrollto me-auto me-lg-0" href="/">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                 <h1>Talent<span>Jo</span></h1>
@@ -37,13 +38,13 @@
 
             <nav class="navbar" id="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-                    <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
-                    {{-- <li><a class="nav-link scrollto" href="index.php#services">Services</a></li> --}}
-                    <!--<li><a class="nav-link scrollto" href="index.php#portfolio">Portfolio</a></li>-->
-                    <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
+                    <li><a class="nav-link scrollto" href="/">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    {{-- <li><a class="nav-link scrollto" href="#services">Services</a></li> --}}
+                    <!--<li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>-->
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
                     {{-- <li><a href="blog.php">Blog</a></li> --}}
-                    <li><a class="nav-link scrollto" href="index.php#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li><a class="nav-link scrollto" href="/ar">العربية</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle d-none"></i>
@@ -116,10 +117,10 @@
                 </div>
                 <div class="row g-1 align-items-center justify-content-center">
                     <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-cuture.png') }}" alt=""></div>
-                    <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-eco.png') }}" alt=""></div>
+                    {{-- <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-eco.png') }}" alt=""></div> --}}
                     <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-edu.png') }}" alt=""></div>
                     <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-edu2.png') }}" alt=""></div>
-                    <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-youth.png') }}" alt=""></div>
+                    {{-- <div class="col-2"><img class="img-fluid" src="{{ asset('img/partners/min-of-youth.png') }}" alt=""></div> --}}
                 </div>
 
             </div>
@@ -912,7 +913,7 @@
                                 <i class="bi bi-envelope flex-shrink-0"></i>
                                 <div>
                                     <h4>Email:</h4>
-                                    <p><a class="text-decoration-none" href="mailto:shorouq.halawani@gmail.com">shorouq.halawani@gmail.com</a></p>
+                                    <p><a class="text-decoration-none" href="mailto:talentjo.jordan@gmail.com">Talentjo.jordan@gmail.com</a></p>
                                 </div>
                             </div><!-- End Info Item -->
 
@@ -920,7 +921,7 @@
                                 <i class="bi bi-phone flex-shrink-0"></i>
                                 <div>
                                     <h4>Call:</h4>
-                                    <p><a class="text-decoration-none" href="tel:+962791525016">0791525016</a></p>
+                                    <p><a class="text-decoration-none" href="tel:+962791525016">07 9152 5016</a></p>
                                 </div>
                             </div><!-- End Info Item -->
 
